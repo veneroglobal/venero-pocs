@@ -1,0 +1,149 @@
+:root{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(231, 229, 229, 0.400);
+}
+.body{
+    height: 100vh;
+    display: flex;
+
+}
+
+
+.header__logo--box{
+    height: 20px;
+    width: 20px;
+}
+.header__logo{
+
+    width: 400%;
+    height: auto;
+}
+
+.header__text--box{
+    margin-top: 1rem;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.primary-heading{
+    background-image: linear-gradient(to right, #2079bd, #ec9927);
+    display: inline-block;
+    -webkit-background-clip: text;
+  color: transparent;
+  font-size: 200%;
+}
+.note{
+    font-size: 10px;
+    text-align: left;
+    color: red;
+    margin-top: 1.5rem;
+}
+
+.calender-heading{
+
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+    background-image: linear-gradient(to right, #2079bd, #ec9927);
+    font-size: 20px;
+    padding: 0.75rem;
+}
+
+
+.form{
+
+margin-top: 2px;
+max-width: 1262px;
+width: 100%;
+
+
+}
+.work-hours{
+    display: inline-block;
+    
+
+}
+.work-hours-input{
+    
+    display: flex;
+    flex-direction: column;
+    width: 4.5rem;
+    padding: .375rem .75rem;
+
+}
+.work-hours-input label{
+    padding: 0.75rem 2rem;
+}
+
+ 
+.btn:hover {
+   
+    box-shadow: 0 10px 20px #2079bd; }
+  
+  .add-button{
+    background-color: #2079bd;
+    color: whitesmoke;
+    width: max-content;
+    padding: 5px;
+    margin: 11px;
+   
+}
+
+.sick-leave{
+    background-color: #2079bd;
+    color: whitesmoke;
+    
+    width: max-content;
+    padding: 5px;
+    margin: 11px;
+  
+}
+.public-holiday{
+    background-color: #2079bd;
+    color: whitesmoke;
+    width: max-content;
+    padding: 5px;
+    margin: 11px;
+    
+    
+}
+.btns{
+    padding: 8.5%;
+    margin-top: -6%;
+    margin-left: -8%;
+    display: flex;
+    
+}
+.cancel{
+    background-color: red;
+    color: whitesmoke;
+    box-sizing:content-box;
+    display:inline-block;
+
+    padding: 12px;
+
+
+}
+
+.save-draft{
+    background-color: #2079bd;
+    color: whitesmoke;
+    box-sizing:content-box;
+    display:inline-block;
+    align-items:end;
+ 
+    padding: 12px;
+
+}
+.submit{
+    background-color: #2079bd;
+    color: whitesmoke;
+    box-sizing:content-box;
+    display:inline-block;
+ 
+    padding: 12px;
+
+}
+
+
