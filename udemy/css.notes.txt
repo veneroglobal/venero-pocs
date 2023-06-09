@@ -1,0 +1,65 @@
+1.) Gradient : CSS gradients let you display smooth transitions between two or more specified colors.
+  types 
+    
+    Linear Gradients (goes down/up/left/right/diagonally)
+    Radial Gradients (defined by their center)
+    Conic Gradients (rotated around a center point) 
+
+* we  can also add gradients on angles bases for example
+    like :- Linear gradients (180deg, red, yellow)
+and angles are defie -) 0deg is equivalent to "to top".
+                        A value of 90deg is equivalent to "to right
+                        A value of 180deg is equivalent to "to bottom"
+
+* The repeating-linear-gradient() function is used to repeat linear gradients:
+                                  0 means full transparecy and 1 means full colors
+
+2.) box-sizing :
+
+* ) content-box-:  The width and height properties  includes only the content. 
+                Border and padding are not included
+
+* ) border-box-:The width and height properties  includes content, padding and border
+
+* ) initial :- by default
+* ) inherit :- inheritance 
+
+3.) clip-path :-  The clip-path property lets you clip an element to a basic shape or to an SVG source.
+
+4.) line height: - he line-height property specifies the height of a line.
+
+5.) Position:- The position property specifies the type of positioning method used for an element 
+                (static, relative, fixed, absolute or sticky).
+
+* :-Static position
+    An element with position: static; is not positioned in any special way.
+     it is always positioned according to the normal flow of the page:
+
+
+* :-relative position
+     An element with position: relative; is positioned relative to its normal position.
+
+* :- fix position
+     which means it always stays in the same place even if the page is scrolled.
+
+
+6.) animation :- CSS allows animation of HTML elements without using JavaScript or Flash!
+
+@keyframes :- this annotation is used for animation
+animation-name :- animation function name
+animation-duration :- animation time how long 
+animation-delay :- it is used to delay the timing of animation
+animation-iteration-count :-  repeating of animation 
+animation-direction 
+animation-timing-function
+animation-fill-mode :-The animation-fill-mode property specifies a style for 
+                    the target element when the animation is not playing. 
+
+
+7.) transform :- The transform property applies a 2D or 3D transformation to an element,
+                This property allows you to rotate, scale, move, skew, etc
+
+                skew:- The skew() method skews an element along the X and Y-axis by the given angles.
+
+
+8.) translate :- The translate property allows you to change the position of elements.
