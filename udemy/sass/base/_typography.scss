@@ -1,0 +1,14 @@
+.primary{
+  &-heading {
+      color: white;
+      text-transform: uppercase; }
+
+      &-heading-main {
+          display: block;
+          font-size: 60px;
+          font-weight: 400;
+          letter-spacing: 20px;
+          animation-name: moveInLeft;
+          animation-duration: 3s; }
+
+}

@@ -1,0 +1,14 @@
+{
+  "name": "udemy",
+  "version": "1.0.0",
+  "description": "landing page for tradesafe",
+  "main": "index.js",
+  "scripts": {
+  "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "trade",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
