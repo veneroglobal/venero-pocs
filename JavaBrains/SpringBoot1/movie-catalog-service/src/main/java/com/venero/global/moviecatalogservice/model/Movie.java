@@ -1,4 +1,4 @@
-package com.venero.global.movieinfoservice.model;
+package com.venero.global.moviecatalogservice.model;
 
 
 import lombok.AllArgsConstructor;
@@ -15,6 +15,5 @@ public class Movie {
     private String movieId;
     private String name;
     private String description;
-
 
 }

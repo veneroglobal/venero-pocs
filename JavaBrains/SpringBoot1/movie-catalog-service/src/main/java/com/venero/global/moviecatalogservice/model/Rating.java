@@ -1,4 +1,4 @@
-package com.venero.global.ratinginfoservice.model;
+package com.venero.global.moviecatalogservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,6 +14,4 @@ public class Rating {
 
     private String movieId;
     private Float rating;
-
-
 }
